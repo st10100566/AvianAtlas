@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "753552950227",
+    "firebase_url": "https://howler-a65f9-default-rtdb.firebaseio.com",
+    "project_id": "howler-a65f9",
+    "storage_bucket": "howler-a65f9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:753552950227:android:1fcb66ac7855ae7f5ee526",
+        "android_client_info": {
+          "package_name": "com.example.Howler1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvHx-yVq75Cj6aWCmHuoFJtX_lswS1Sr4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

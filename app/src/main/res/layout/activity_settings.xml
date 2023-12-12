@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    android:background="#DFC5FE"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:padding="20dp"
+        android:background="@color/darkLav">
+
+        <TextView
+            android:id="@+id/full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="50sp"
+            android:fontFamily="@font/bungee"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:includeFontPadding="false"
+            android:textColor="#DFC5FE"/>
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:orientation="vertical">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kilometers"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/darkLav"
+            android:textSize="20sp"
+            android:padding="10dp"
+            />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Miles"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/darkLav"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Maximum Distance"
+            android:fontFamily="@font/bungee"
+            android:textColor="@color/darkLav"
+            android:textSize="20sp"
+            android:padding="10dp"
+            />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="30"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="TextView"
+            android:visibility="invisible"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

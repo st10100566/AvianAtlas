@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "681761861028",
+    "firebase_url": "https://avianatlas-4794e-default-rtdb.firebaseio.com",
+    "project_id": "avianatlas-4794e",
+    "storage_bucket": "avianatlas-4794e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681761861028:android:9c24dc2774cc6354c8e531",
+        "android_client_info": {
+          "package_name": "com.example.avianatlas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0E9vW4eFjpv0tcElnHU5LhFcV0ClSX_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
